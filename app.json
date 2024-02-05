@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a9d3eae-fc82-4eb2-b35f-29ae56db367f"
+      }
+    },
+    "owner": "xwersshadow"
   }
 }
