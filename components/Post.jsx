@@ -4,7 +4,7 @@ import { View, Text, Image } from "react-native";
 import styled from "styled-components/native";
 
 const PostView = styled.View`
-  padding: 30px;
+  padding: 45px;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0, 0, 0, 0.1);
   border-bottom-style: solid;
@@ -15,7 +15,7 @@ const PostImage = styled.Image`
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  margin-top: 12px;
+  margin-top: -5px;
   margin-left: 12px;
 `;
 

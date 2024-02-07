@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, ScrollView } from "react-native";
 import styled from "styled-components/native";
 import axios from "axios";
 import {
@@ -58,14 +58,15 @@ export const FullPostScreen = ({ route, navigation }) => {
   }
 
   return (
-    <View style={{ padding: 20 }}>
-      <PostImage
-        source={{
-          uri: data.imageUrl,
-        }}
-      />
-
-      <PostText>{data.text}</PostText>
-    </View>
+    <ScrollView>
+      <View style={{ padding: 20 }}>
+        <PostImage
+          source={{
+            uri: data.imageUrl,
+          }}
+        />
+        <PostText>{data.text}</PostText>
+      </View>
+    </ScrollView>
   );
 };
